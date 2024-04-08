@@ -12,9 +12,14 @@
   </div> 
   <hr/>
   <div>
-    <h3>Tkinter 🖥</h3>
-    <p>&nbsp;&nbsp;&nbsp; - Criação de Interfaces Gráficas.</p>
+    <h3>Beautifulsoup4 🍲</h3>
+    <p>&nbsp;&nbsp;&nbsp; - Raspagem de Dados. (Leitura de páginas Web)</p>
   </div>
+  <hr/>
+  <div>
+    <h3>Selenium 🤖</h3>
+    <p>&nbsp;&nbsp;&nbsp; - Automação em Páginas Web.</p>
+  </div>   
   <hr/>
    <div>
     <h3>Requests 🛬</h3>
@@ -26,13 +31,8 @@
     <p>&nbsp;&nbsp;&nbsp; - Criação de API's.</p>
   </div>
   <hr/>
-   <div>
-    <h3>Beautifulsoup4 🍲</h3>
-    <p>&nbsp;&nbsp;&nbsp; - Raspagem de Dados. (Leitura de páginas Web)</p>
-  </div>
-  <hr/>
   <div>
-    <h3>Selenium 🤖</h3>
-    <p>&nbsp;&nbsp;&nbsp; - Automação em Páginas Web.</p>
-  </div>   
+    <h3>Tkinter 🖥</h3>
+    <p>&nbsp;&nbsp;&nbsp; - Criação de Interfaces Gráficas.</p>
+  </div>
 </div>
