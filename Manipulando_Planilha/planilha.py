@@ -23,15 +23,15 @@ def entendendo_openpyxl():
 
     lista_valores_altos = []
     validador = False
-    for linha in aba_ativa['A1:D37']:
+    for linha in aba_ativa['A1:D37']:  # -> Percorre as linhas presentes no intervalo informado.
         print(linha)
         print()
-        for celula in linha:
+        for celula in linha:  # -> Percorre cada celula da linha atual.
             if celula.column == 2:  # 1 = A | 2 = B | 3 = C
                 # celula.value = 'Uhul!'
 
-                if ',' in celula.value:
-                    celula.value = celula.value.replace(',', '.')
+                if ',' in celula.value:  # -> Verifico se existe uma virgula na celula atual.
+                    celula.value = celula.value.replace(',', '.')  # -> Se existir uma virgula na celula eu troco para ponto (.)
 
                 if float(celula.value) > 20:
                     validador = True
@@ -44,9 +44,9 @@ def entendendo_openpyxl():
 
         print()
 
-    nova_aba = planilha['Aba2']
+    nova_aba = planilha['Aba2']  # -> Trocando para a aba "Aba2".
     for elemento in lista_valores_altos:
         nova_aba.append(elemento)
 
-    planilha.save('Planilhas/Outra.xlsx')
-    planilha.close()
+    planilha.save('Planilhas/Outra.xlsx')  # -> Salvando a planilha alterada no caminho informado.
+    planilha.close()  # -> Fechando a planilha após fazer tudo com ela.
