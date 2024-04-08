@@ -2,7 +2,7 @@ from openpyxl import load_workbook, Workbook
 from openpyxl.styles import PatternFill
 
 
-def entendo_openpyxl():
+def entendendo_openpyxl():
     # Criando uma planilha:
     # planilha = Workbook()
 
