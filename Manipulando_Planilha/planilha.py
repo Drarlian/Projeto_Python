@@ -50,4 +50,3 @@ def entendo_openpyxl():
 
     planilha.save('Planilhas/Outra.xlsx')
     planilha.close()
-
